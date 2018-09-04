@@ -18,7 +18,11 @@ select a specific zone for it, otherwise it defaults to `westernEurope`.
 ### Running
 Just run
 ```sh
-docker run -t -e BOT_TOKEN=123456789:ABCDEFGHIJKLMNO-PQRSTUVWXYZ12345678 -e CHAT_ID=123456789 -e REFERENCE=1801sk14 colega/kimsufi-telegram-watcher
+docker run -t \
+    -e BOT_TOKEN=123456789:ABCDEFGHIJKLMNO-PQRSTUVWXYZ12345678 \
+    -e CHAT_ID=123456789 \ 
+    -e REFERENCE=1801sk14 \
+    colega/kimsufi-telegram-watcher
 ```
 I recommend you trying with an available server reference first, in order to make sure that your notification arrives correctly.
 Check the stdout if something fails.
