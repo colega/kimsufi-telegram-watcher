@@ -9,4 +9,4 @@ RUN npm i
 
 COPY index.js .
 
-ENTRYPOINT node index.js
+CMD node index.js
