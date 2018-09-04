@@ -1,0 +1,22 @@
+{
+  "name": "kimsufi-watcher",
+  "version": "0.1.0",
+  "description": "Kimsufi server availability watcher",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colega/kimsufi-watcher"
+  },
+  "keywords": [
+    "kimsufi",
+    "server",
+    "availabilty",
+    "watcher"
+  ],
+  "author": "Coleg <oleg@zaytsev.es>",
+  "license": "MIT",
+  "devDependencies": {
+    "request": "^2.88.0"
+  }
+}
